@@ -112,6 +112,7 @@ USE_TZ = True
 
 # ✅ Static files
 STATIC_URL = "/static/"
+STATIC_ROOT = BASE_DIR / "staticfiles"
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 
 # ✅ WhiteNoise: compressed + hashed static files (recommended for Heroku)
